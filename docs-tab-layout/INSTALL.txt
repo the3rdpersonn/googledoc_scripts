@@ -1,0 +1,60 @@
+DOCS TAB LAYOUT - FIREFOX INSTALLATION
+
+This extension automatically collapses Google Docs tab branches when you
+open a document, leaving the parent tabs visible. You can choose which
+branches start expanded.
+
+INSTALL
+
+1. Download the signed .xpi file sent with this manual.
+2. Open Firefox. Type about:addons in the address bar and press Enter.
+3. Click the gear icon, then "Install Add-on From File...".
+4. Select the downloaded .xpi file and confirm installation.
+5. Allow access to docs.google.com if Firefox asks.
+6. Open or refresh a Google Doc. Its tab branches should collapse
+   automatically. A brief delay while the document loads is normal.
+
+Use the signed .xpi file, not the source ZIP or manifest.json.
+This installation stays available after Firefox and computer restarts.
+
+CHOOSE YOUR OPENING LAYOUT
+
+1. While viewing a Google Doc, click Firefox's Extensions button
+   (the puzzle-piece icon), then "Docs Tab Layout".
+2. Find the tab in the list. The current document tab is highlighted.
+3. Click its "Collapsed" or "Expanded" button to change its opening state.
+   Changes save automatically for this document.
+4. Click "Apply now" to preview the layout, or refresh the document.
+
+Set parent branches first, then child exceptions. Changing a parent
+resets the saved exceptions within that branch. Expanding a child also
+opens the ancestors needed to reach it.
+
+"Reset to all collapsed" clears this document's preferences and collapses
+its branches. Tabs marked "No subtabs" have nothing to fold.
+
+The buttons show your saved OPENING preferences. After opening, you can
+manually expand or collapse tabs without changing those preferences.
+Heading outlines inside individual tabs are not controlled.
+
+IF IT DOES NOT WORK
+
+- Refresh the Google Doc after installing.
+- Check that Docs Tab Layout is enabled in about:addons and has permission
+  to run on docs.google.com.
+- Open the document's tab sidebar, then click "Apply now" in the extension.
+- If you interact with the document during startup, automatic changes
+  may stop. Click "Apply now" to retry.
+- If it still fails, send the person who shared it the exact status
+  message shown in the extension popup.
+
+YOUR SETTINGS AND DATA
+
+Preferences are saved locally in your Firefox profile, separately for
+each document. They are not shared with other people or synced between
+devices by this extension. The extension does not edit document content
+or upload your documents or settings.
+
+REMOVE
+
+Open about:addons, find Docs Tab Layout, and use its menu to remove it.

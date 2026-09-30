@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Docs Tab Layout</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header><div class="eyebrow">GOOGLE DOCS</div><h1>Opening layout</h1>
+  <p>Start with a clear view. Choose which branches open expanded.</p></header>
+  <main>
+    <p id="status" role="status" aria-live="polite">Connecting to this document…</p>
+    <p id="current" class="current"></p>
+    <div class="list-heading"><span>Document tabs</span><span>On opening</span></div>
+    <ul id="tabs" aria-label="Tab opening preferences"></ul>
+    <div class="actions"><button id="apply" disabled>Apply now</button><button id="reset" disabled>Reset to all collapsed</button></div>
+    <p class="hint">Changing a branch resets its child exceptions. Set the parent first, then adjust children. Tabs without subtabs have nothing to fold.</p>
+    <p class="hint">Saved on this Firefox profile. After opening, you can expand and collapse tabs freely. Heading outlines are unchanged.</p>
+  </main>
+  <script src="popup.js"></script>
+</body></html>
