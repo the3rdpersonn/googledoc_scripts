@@ -1,9 +1,4 @@
-# Google Docs tools
-
-- [Docs Tab Layout for Firefox](docs-tab-layout/README.md): automatic tab collapse and saved opening layouts. Includes a [plain-text installation manual](docs-tab-layout/INSTALL.txt).
-- Google Docs Message Board Archive Script: setup and usage below.
-
-## Google Docs Message Board Archive Script
+# Google Docs Message Board Archive Script
 
 This folder contains a ready-to-paste Apps Script file:
 
